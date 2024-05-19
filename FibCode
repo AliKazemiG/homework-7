@@ -1,0 +1,36 @@
+using System;
+
+
+namespace fibonachi
+{
+     
+      class Program
+      {  
+         
+                    
+                      public int fib(int n)
+                      {       
+                            for( c ; c <= n ; c++)
+                            {
+                               temp = a
+                               a = b
+                               b = temp + b
+                            }   
+                              return a ; 
+
+
+
+                            static void Main(string[] args)
+                             {
+                                int n;
+                                string num;
+                                Console.WriteLine("Enter a number");
+                                num = Console.ReadLine();
+                                n = int.parse(num);
+                                int a = 0;
+                                int b = 1;
+                                int temp ;
+                                int c = 0;
+                                int t = 0;
+                                Console.WriteLine(fib(n));
+                               }
